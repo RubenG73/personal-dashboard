@@ -1,0 +1,80 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html {
+    color-scheme: dark light;
+}
+
+
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    min-height: 100vh;
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 20px #aaaaaa;
+    
+}
+
+main {
+    padding: 1em;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#time {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#crypto-container {
+    font-size: 1.5rem;
+}
+
+#crypto-top {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+#crypto-bottom {
+    margin-top: 0.5em;
+}
+
+#weather {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0;
+    margin-bottom: -20px;
+}
+
+
+#weather-container {
+    text-align: center;
+    font-weight: 600;
+}
